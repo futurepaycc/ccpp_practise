@@ -1,8 +1,9 @@
 #include <glib-object.h>
 #include <math.h>
 
+/* GCC: gcc `pkg-config --cflags --libs glib-2.0 gobject-2.0` closure2.c -o closure2 */
+
 /*
-gcc `pkg-config --cflags --libs glib-2.0 gobject-2.0` closure2.c -o closure2
 来源：
 https://blog.csdn.net/knowledgebao/article/details/82460133
 http://garfileo.is-programmer.com/2011/3/20/function-pointer-and-callback-function-and-closure.25453.html#ref-1 (同内容，排版好点)
