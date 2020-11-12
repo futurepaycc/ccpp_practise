@@ -1,7 +1,7 @@
 #include <crack.h>
 #include <stdio.h>
 
-/*GCC: gcc -lcrack -o hello1 hello1.c*/
+/*GCC: gcc -g -lcrack -o hello1 hello1.c*/
 /* 
 操作：
 sudo create-cracklib-dict /usr/share/dict/*
