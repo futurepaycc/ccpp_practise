@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.mvl": "html",
+        "iosfwd": "cpp"
+    }
+}
