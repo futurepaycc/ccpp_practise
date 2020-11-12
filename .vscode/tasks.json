@@ -11,6 +11,11 @@
         {
             "label": "clean",
             "type": "shell",
+            "command": "cd ${fileDirname} && rm ${fileBasenameNoExtension}"
+        },
+        {
+            "label": "clean_all_binaries",
+            "type": "shell",
             "command": "cd ${workspaceFolder} && fd . --type=executable | xargs rm"
         }
     ]
