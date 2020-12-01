@@ -6,7 +6,8 @@
         {
             "label": "compile",
             "type": "shell",
-            "command": "cd ${fileDirname} && /usr/local/bin/gccsh ${file}"
+            "command": "cd ${fileDirname} && /usr/local/bin/gccsh ${file}",
+            "problemMatcher": []
         },
         {
             "label": "clean",
@@ -16,7 +17,8 @@
         {
             "label": "clean_all_binaries",
             "type": "shell",
-            "command": "cd ${workspaceFolder} && fd . --type=executable | xargs rm"
+            "command": "cd ${workspaceFolder} && fd . --type=executable | xargs rm",
+            "problemMatcher": []
         }
     ]
 }
